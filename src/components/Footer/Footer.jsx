@@ -23,10 +23,10 @@ const FooterLinks = [
     title: "Best Places",
     link: "/best-places",
   },
-  {
-    title: "Blogs",
-    link: "/blogs",
-  },
+  // {
+  //   title: "Blogs",
+  //   link: "/blogs",
+  // },
 ];
 
 const Footer = () => {

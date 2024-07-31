@@ -22,21 +22,22 @@ export const NavbarLinks = [
     name: "Best Places",
     link: "/best-places",
   },
+  {
+    name: "Our Services",
+    link: "/Services",
+  },
 ];
 
 const DropdownLinks = [
-  {
-    name: "Our Services",
-    link: "/#services",
-  },
-  {
-    name: "Top Brands",
-    link: "/#mobile_brands",
-  },
-  {
-    name: "Location",
-    link: "/#location",
-  },
+ 
+  // {
+  //   name: "",
+  //   link: "/#mobile_brands",
+  // },
+  // {
+  //   name: "Location",
+  //   link: "/#location",
+  // },
 ];
 
 const Navbar = ({ handleOrderPopup }) => {
@@ -87,7 +88,13 @@ const Navbar = ({ handleOrderPopup }) => {
                     About
                   </NavLink>
                 </li>
-                <li className="group relative cursor-pointer">
+                <li className="py-4">
+                  <NavLink to="/services" activeClassName="active">
+                    Services 
+                  </NavLink>
+                </li>
+
+                {/* <li className="group relative cursor-pointer">
                   <a
                     href="/#home"
                     className="flex h-[72px] items-center gap-[2px]"
@@ -111,7 +118,7 @@ const Navbar = ({ handleOrderPopup }) => {
                       ))}
                     </ul>
                   </div>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className="flex items-center gap-4">

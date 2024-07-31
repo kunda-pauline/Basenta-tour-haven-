@@ -11,29 +11,28 @@ const About = () => {
             About us
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-            ducimus cupiditate quo harum officia perspiciatis hic ut sunt
-            repudiandae, laboriosam expedita nostrum tempora, consectetur
-            itaque, voluptate error aperiam corrupti ullam aspernatur a!
-            Dolorem, reprehenderit amet quidem deleniti iure rem vel a enim
-            ipsam hic numquam consequatur eius id eaque accusamus repudiandae
-            impedit, quisquam non, harum inventore ratione? Tempora voluptatum
-            ut eligendi corrupti esse, repellat nesciunt illum facilis officiis?
-            Nisi quidem officiis asperiores nostrum ipsa maiores explicabo quia!
-            Corporis provident asperiores fuga eligendi rem temporibus possimus
-            autem excepturi! Facilis sunt corrupti nesciunt asperiores, ab
-            consectetur doloremque, velit a mollitia possimus quaerat!
+            Nestled in the serene surroundings of Lake Burera, Basenta Tour
+            Haven is a unique retreat located on Birwa 1 Island (Birwa Batutsi)
+            in Nkenke Cell, Kinoni Sector, Burera District, Rwanda. Our haven
+            offers an unparalleled experience for travelers seeking tranquility,
+            cultural enrichment, and a connection with nature. Guided by our
+            motto, "home away from home," we strive to provide exceptional
+            hospitality while making a positive impact on our community and
+            environment.
           </p>
           <br />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi
-            suscipit minus similique aliquam recusandae quisquam id nulla
-            tempora voluptate vero.
+            At Basenta Tour Haven, our mission is to create a "home away from
+            home" experience for our guests while fostering sustainable tourism
+            practices that positively impact our community and environment. We
+            are committed to transforming the community standards of living,
+            conserving the natural environment, promoting tourism safety, and
+            celebrating the rich culture of Rwanda.
           </p>
         </div>
       </div>
       <Location />
-      <BlogsComp />
+      {/* <BlogsComp /> */}
     </>
   );
 };
