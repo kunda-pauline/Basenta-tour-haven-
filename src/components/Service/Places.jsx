@@ -6,7 +6,7 @@ import Img3 from "../../assets/dance.jpg";
 import Img4 from "../../assets/places/place7.jpg";
 import Img5 from "../../assets/land .jpg";
 import Img6 from "../../assets/Hicking.jpg";
-import Img7 from "../../assets/places/Camping.jpg";
+import Img7 from "../../assets/places/camping.jpg";
 import Img8 from "../../assets/boating.jpg";
 import Img9 from "../../assets/community.jpg";
 
